@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.top {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.menu {
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: navy;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.left {
+    float: left;
+    width: 25%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px gray solid;
+    border-radius: 5px;
+}
+
+.right {
+    float: right;
+    width: 70%;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px gray solid;
+    border-radius: 5px;
+}
+
+.box {
+    height: 500px;
+}
+
+.bottom {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.new-body {
+    background: #f4f4f9;
+    color: #333;
+    font-family: Verdana, sans-serif;
+}
+
+.new-header {
+    background: #222;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.new-content {
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.new-content h1, 
+.new-content h2, 
+.new-content h3 {
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.new-content p {
+    line-height: 1.6;
+}
+
+.new-content ul, 
+.new-content ol {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.new-content img {
+    display: block;
+    margin: 15px auto;
+    border-radius: 6px;
+    max-width: 100%;
+}
+
+.new-content a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.new-content a:hover {
+    text-decoration: underline;
+}
+
+.new-footer {
+    background: #222;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.my-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.my-table th {
+    background: #0066cc;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.my-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.my-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.my-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.my-form input,
+.my-form select,
+.my-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.my-form button {
+    width: 100%;
+}
+.radio-group {
+    display: flex;
+    gap: 15px;
+    margin: 8px 0 12px 0;
+}
+
+.radio-group label {
+    font-weight: normal;
+}
